@@ -50,6 +50,7 @@ gmapAPI = ""
 # Meta data
 description = "Independent development group, powered by Ontology."
 author = "TowerBuilders"
+image = "images/LogoMini.png"
 # Google Analitycs
 googleAnalitycsID = "UA-134150592-1"
 custom_css = ["css/custom.css"]
