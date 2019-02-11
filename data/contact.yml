@@ -1,0 +1,20 @@
+enable : true
+heading : Let's Build
+headingSpan : Together
+title : Contact Details
+content : If you've got an exciting project, we'd love to hear from your about it!
+enable_maps : false
+# mapLatitude : 51.5223477
+# mapLongitude: -0.1622023
+contactDetails :
+  # - icon : tf-map-pin
+  #   info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+  #
+  # - icon : tf-ion-ios-telephone-outline
+  #   info : "Phone: +880-31-000-000"
+  #
+  # - icon : tf-ion-iphone
+  #   info : "Fax: +880-31-000-000"
+
+  - icon : tf-ion-ios-email-outline
+    info : "Email: info@towerbuilders.org"

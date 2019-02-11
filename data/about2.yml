@@ -1,0 +1,13 @@
+enable : true
+image : images/about/cloudTowers.jpg
+title : Building tomorrow, today
+description : We specialized in building decentralized applications use to power the future global economy.
+# description2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+aboutItem :
+  - icon :
+    title : Delivery focused
+    content : Rather than focusing on hype, we strive to deliver working projects that add value.
+
+  - icon :
+    title : Powered by Ontology
+    content : Our group leverages the Ontology platform to create destributed solutions at scale.
