@@ -2,7 +2,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{else if .IsPage}}{{ .Summary | plainify}}{{ else }}{{.Site.Params.description}}{{ end }}">
     <meta name="author" content="{{ with .Params.author }}{{ . }}{{else}}{{ with .Site.Params.author}}{{ . }}{{ end }}{{end}}">
-    <meta name="image" content="{{ with .Params.image }}{{ . }}{{else}}{{ with .Site.Params.image}}{{ . }}{{ end }}{{end}}">
+
+    <meta property="og:title" content="{{ with .Site.Title }}{{ . }}{{else}}{{ with .Site.Title}}{{ . }}{{ end }}{{end}}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{else}}{{ with .Site.Params.image}}{{ . }}{{ end }}{{end}}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{else if .IsPage}}{{ .Summary | plainify}}{{ else }}{{.Site.Params.description}}{{ end }}">
 
     {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
