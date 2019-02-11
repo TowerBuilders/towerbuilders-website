@@ -1,6 +1,7 @@
 baseURL = "http://towerbuilders.org/"
 languageCode = "en-us"
 title = "TowerBuilders"
+publishDir = "docs"
 
 theme = "meghna-hugo"
 
