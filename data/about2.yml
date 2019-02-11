@@ -1,7 +1,7 @@
 enable : true
 image : images/about/cloudTowers.jpg
 title : Building tomorrow, today
-description : We specialized in building decentralized applications use to power the future global economy.
+description : We specialized in building decentralized applications used to power the future global economy.
 # description2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
 aboutItem :
   - icon :
