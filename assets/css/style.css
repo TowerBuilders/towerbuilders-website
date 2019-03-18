@@ -510,9 +510,9 @@ a:hover {
   margin-bottom: 0;
 }
 
-.navigation .logo {
+/* .navigation .logo {
   padding: 0;
-}
+} */
 
 .navigation .navigation-menu li a.active {
   color: red;

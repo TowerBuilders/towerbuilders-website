@@ -7,10 +7,10 @@ theme = "meghna-hugo"
 
 # Menu
 [menu]
-    [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
+    # [[menu.nav]]
+    # name = "About Us"
+    # URL = "about"
+    # weight = 2
 
     # [[menu.nav]]
     # name = "Service"
@@ -33,13 +33,18 @@ theme = "meghna-hugo"
     # weight = 6
     #
     # [[menu.nav]]
-    # name = "Blog"
-    # URL = "blog"
+    # name = "Projects"
+    # URL = "projects"
     # weight = 7
 
     [[menu.nav]]
+    name = "Learning Center"
+    url = "https://learn.towerbuilders.org"
+    weight = 7
+
+    [[menu.nav]]
     name = "Contact"
-    URL = "contact-us"
+    url = "#contact-us"
     weight = 8
 
 # Site params
@@ -77,50 +82,50 @@ custom_css = ["css/custom.css"]
     btnText = "Start a project with us"
 
     # counter
-    # [params.counter]
-    # enable = true
-    # bgImage = "images/backgrounds/bg-1.jpg"
-    #     [[params.counter.counterItem]]
-    #     title = "Happy Clients"
-    #     icon = "tf-ion-android-happy"
-    #     count = "320"
-    #
-    #     [[params.counter.counterItem]]
-    #     title = "Projects completed"
-    #     icon = "tf-ion-archive"
-    #     count = "565"
-    #
-    #     [[params.counter.counterItem]]
-    #     title = "Positive feedback"
-    #     icon = "tf-ion-thumbsup"
-    #     count = "95"
-    #
-    #     [[params.counter.counterItem]]
-    #     title = "Cups of Coffee"
-    #     icon = "tf-ion-coffee"
-    #     count = "2500"
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
 
     # footer
     [params.footer]
         copyright = "TowerBuilders"
         copyrightURL = "https://towerbuilders.org"
 
-        # # social Icons
-        # [[params.footer.socialIcon]]
-        # icon = "tf-ion-social-facebook"
-        # url = "#"
-        #
-        # [[params.footer.socialIcon]]
-        # icon = "tf-ion-social-twitter"
-        # url = "#"
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/TowerBuilders.org"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/TowerBuilders"
         #
         # [[params.footer.socialIcon]]
         # icon = "tf-ion-social-google-outline"
         # url = "#"
         #
-        # [[params.footer.socialIcon]]
-        # icon = "tf-ion-social-youtube"
-        # url = "#"
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "https://www.youtube.com/channel/UCCIUmitIwa8Q0ufFb8xqbYQ"
         #
         # [[params.footer.socialIcon]]
         # icon = "tf-ion-social-linkedin"
