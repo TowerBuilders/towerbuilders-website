@@ -11,3 +11,7 @@ aboutItem :
   - icon :
     title : Powered by Ontology
     content : Our group leverages the Ontology platform to create distributed solutions at scale.
+
+  - icon :
+    title : Empowering developers
+    content : We encourage the sharing of ideas and technical learnings to grow the development community.

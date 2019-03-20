@@ -1,0 +1,40 @@
+{{ if .Site.Data.projects.enable}}
+{{"<!-- Start Blog Section -->" | safeHTML}}
+<section id="projects" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInDown">
+                    <h2> {{ with .Site.Data.projects.heading }} {{ . }} {{ end }} <span class="color"> {{ with .Site.Data.projects.headingSpan }} {{ . }} {{ end }} </span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.projects.projectItem }}
+            {{"<!-- single projects post -->" | safeHTML}}
+            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+                <div class="post-block">
+                    <div class="media-wrapper">
+                        <img src="{{ .image | absURL }}" alt="post-image" class="img-fluid">
+                    </div>
+
+                    <div class="content">
+                        <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+                        <p>{{ .description }}</p>
+                        <a class="btn btn-transparent" href="{{ .url }}">Check it out</a>
+                    </div>
+                </div>
+            </article>
+            {{"<!-- /single projects post -->" | safeHTML}}
+            {{ end }}
+
+            <!-- <div class="all-post text-center col-lg-12">
+                <a class="btn btn-main" href="/projects">View All Post</a>
+            </div> -->
+        </div>
+    </div>
+</section>
+{{"<!-- /projects -->" | safeHTML}}
+{{ end }}

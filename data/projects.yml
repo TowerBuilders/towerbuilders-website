@@ -1,0 +1,50 @@
+enable : true
+heading : Active
+headingSpan : Projects
+sharing : false
+
+projectItem :
+  - image : images/projects/learningCenter.jpg
+    url : https://learn.towerbuilders.org
+    title : Learning Center
+    description : A collection of tutorials to aid community developers learning about how to build applications in the Ontology ecosystem. Whether you are a beginning or experienced developer, the learning center seeks to provide assistance ranging from hello world to complex production applications.
+
+  # - image : images/portfolio/portfolio-2.jpg
+  #   URL : #
+  #   title : Sound system
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-3.jpg
+  #   URL : #
+  #   title : Clock Product
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-4.jpg
+  #   URL : #
+  #   title : Bottol Label
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-5.jpg
+  #   URL : #
+  #   title : Shopping Bag
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-6.jpg
+  #   URL : #
+  #   title : Tag Design
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-7.jpg
+  #   URL : #
+  #   title : Business Card
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-8.jpg
+  #   URL : #
+  #   title : Stationary Design
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+  #
+  # - image : images/portfolio/portfolio-2.jpg
+  #   URL : #
+  #   title : Tag Design
+  #   description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
