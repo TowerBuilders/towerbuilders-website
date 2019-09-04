@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>https://towerbuilders.org/blog/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://towerbuilders.org/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://towerbuilders.org/blog/simple-post-title/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
   </url>
@@ -18,25 +28,11 @@
   </url>
   
   <url>
-    <loc>https://towerbuilders.org/blog/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://towerbuilders.org/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://towerbuilders.org/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://towerbuilders.org/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
